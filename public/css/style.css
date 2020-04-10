@@ -7,7 +7,9 @@ body {
   width: 25em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
+  padding: 12px 12px;
+  align: center;
+  margin: 275px auto;
 }
 .container {
   width: 600px;

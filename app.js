@@ -25,7 +25,7 @@ app.post('/', function (req, res) {
       if(weather.main == undefined){
         res.render('index', {weather: null, error: 'Error! You fucked up.'});
       } else {
-        let weatherText = `${weather.main.temp} degrees Fahrenheit in ${weather.name}!`;
+        let weatherText = `Currently in ${weather.name} : ${weather.main.temp} Deg FH!`;
         res.render('index', {weather: weatherText, error: null});
       }
     }
