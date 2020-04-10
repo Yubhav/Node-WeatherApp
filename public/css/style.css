@@ -1,0 +1,22 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Londrina Solid', cursive;
+}
+.shadow {
+  width: 20em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.main-button:hover{
+  border:2px solid #515151;
+}
+p {
+  color: #E64A19;
+}
